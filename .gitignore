@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# TypeScript incremental cache
+*.tsbuildinfo
+
+# Environment variables (don't track secrets)
+.env
+.env.*.local
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Jest cache
+jest.config.ts
+/jest-cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.seed
+.pids
